@@ -20,105 +20,102 @@ It demonstrates real-world backend architecture including:
           User Signup & Login
 
 JWT-based authentication
-  Password encryption using bcrypt
-  Role-based access control (Admin / User)
+            Password encryption using bcrypt
+            Role-based access control (Admin / User)
 
 🗺 Tour Management
-  Full CRUD operations
-  Advanced filtering & sorting
-  Pagination
-  Route aliasing
-  MongoDB aggregation pipelines
+            Full CRUD operations
+            Advanced filtering & sorting
+            Pagination
+            Route aliasing
+            MongoDB aggregation pipelines
 
 🛡 Security Implementation
-  Data sanitization
-  NoSQL injection protection
-  XSS protection
-  HTTP security headers using Helmet
-Rate limiting
+          Data sanitization
+          NoSQL injection protection
+          XSS protection
+          HTTP security headers using Helmet
+          Rate limiting
 
 ⚠ Error Handling
-
-Global error middleware
-
-Operational vs Programming errors
-
-Custom AppError class
+          Global error middleware
+          Operational vs Programming errors
+          Custom AppError class
 
 🛠 Tech Stack
-  Backend	Database	Security	Tools
-  Node.js	MongoDB	Helmet	Nodemailer
-  Express.js	Mongoose	xss-clean	Stripe
-  JWT		Rate Limiter	Postman
+            Backend	Database	Security	Tools
+            Node.js	MongoDB	Helmet	Nodemailer
+            Express.js	Mongoose	xss-clean	Stripe
+            JWT		Rate Limiter	Postman
 
 📂 Project Structure
-natours/
-│
-├── controllers/
-├── models/
-├── routes/
-├── utils/
-├── config.env
-├── app.js
-└── server.js
+          natours/
+          │
+          ├── controllers/
+          ├── models/
+          ├── routes/
+          ├── utils/
+          ├── config.env
+          ├── app.js
+          └── server.js
 
 ⚙ Installation & Setup
 
 1️⃣ Clone Repository
-  git clone https://github.com/Aman17123/ExpressJS.git
+            git clone https://github.com/Aman17123/ExpressJS.git
 
 2️⃣ Install Dependencies
-  npm install
+            npm install
 
 3️⃣ Configure Environment Variables
-  Create a config.env file:
-  PORT=3000
-  DATABASE=your_mongodb_connection_string
-  JWT_SECRET=your_super_secret_key
-  JWT_EXPIRES_IN=90d
+            Create a config.env file:
+            PORT=3000
+            DATABASE=your_mongodb_connection_string
+            JWT_SECRET=your_super_secret_key
+            JWT_EXPIRES_IN=90d
 
 4️⃣ Run Development Server
   npm run dev
 
 🔐 API Endpoints
-  Tours
-  GET    /api/v1/tours
-  GET    /api/v1/tours/:id
-  POST   /api/v1/tours
-  PATCH  /api/v1/tours/:id
-  DELETE /api/v1/tours/:id
-  Users
-  POST   /api/v1/users/signup
-  POST   /api/v1/users/login
-  GET    /api/v1/users/me
+            Tours
+            GET    /api/v1/tours
+            GET    /api/v1/tours/:id
+            POST   /api/v1/tours
+            PATCH  /api/v1/tours/:id
+            DELETE /api/v1/tours/:id
+            Users
+            POST   /api/v1/users/signup
+            POST   /api/v1/users/login
+            GET    /api/v1/users/me
 
 🧪 Testing
 
-  You can test APIs using:
-  Postman
+            You can test APIs using:
+            Postman
 
 🚀 Deployment Options
 
-  AWS
-  Render
-  Railway
-  Heroku
+            AWS
+            Render
+            Railway
+            Heroku
 
 📚 What I Learned
 
-  Advanced Express architecture
-  Middleware chaining
-  MongoDB aggregation framework
-  JWT authentication flow
-  Production-ready error handling
-  API security best practices
-  Environment configuration & deployment
+            Advanced Express architecture
+            Middleware chaining
+            MongoDB aggregation framework
+            JWT authentication flow
+            Production-ready error handling
+            API security best practices
+            Environment configuration & deployment
 
 👨‍💻 Author
-  Aman
-  Backend Developer | MERN Stack Learner
-  🔗 GitHub: https://github.com/Aman17123
+            Aman
+            Backend Developer | MERN Stack Learner
+            🔗 GitHub: https://github.com/Aman17123
 
 ⭐ Support
 
-  If you like this project, give it a ⭐ on GitHub!
+            If you like this project, give it a ⭐ on GitHub!
