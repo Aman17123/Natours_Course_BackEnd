@@ -118,8 +118,16 @@ Insomnia
 🚀 Deployment Options
 
 AWS
+<<<<<<< HEAD
 Render
 Railway
+=======
+
+Render
+
+Railway
+
+>>>>>>> 9c683fe (readme update)
 Heroku
 
 📚 What I Learned
@@ -147,4 +155,8 @@ Backend Developer | MERN Stack Learner
 
 ⭐ Support
 
+<<<<<<< HEAD
 If you like this project, give it a ⭐ on GitHub!
+=======
+If you like this project, give it a ⭐ on GitHub!
+>>>>>>> 9c683fe (readme update)
