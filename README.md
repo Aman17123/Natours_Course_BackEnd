@@ -10,14 +10,14 @@ Advanced Node.js, Express & MongoDB Project
 Natours is a production-ready backend application that allows users to explore and book travel tours.
 It demonstrates real-world backend architecture including:
 
-  🔐 Secure Authentication & Authorization
-  🧱 MVC Architecture
-  📦 RESTful API Design
-  🛡 Advanced Security Implementation
-  ⚡ Production-Level Error Handling
-  ✨ Core Features
-  🔐 Authentication & Authorization
-  User Signup & Login
+          🔐 Secure Authentication & Authorization
+          🧱 MVC Architecture
+          📦 RESTful API Design
+          🛡 Advanced Security Implementation
+          ⚡ Production-Level Error Handling
+          ✨ Core Features
+          🔐 Authentication & Authorization
+          User Signup & Login
 
 JWT-based authentication
   Password encryption using bcrypt
