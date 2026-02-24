@@ -1,78 +1,50 @@
-🌍 Natours – Advanced Node.js, Express & MongoDB Project
-
-A complete backend travel tour booking application built while learning advanced Node.js concepts including MVC architecture, RESTful APIs, authentication, authorization, security, and deployment.
-
+🌍 Natours
+Advanced Node.js, Express & MongoDB Project
+<p align="center"> <b>Production-level Backend Travel Booking API</b><br> Built with MVC Architecture, RESTful APIs, Authentication & Security Best Practices </p>
 🚀 Live Demo
 
-(Add your deployed link here after hosting)
-🔗 https://your-live-link.com
+🔗 Live URL: https://your-live-link.com
 
-📌 Project Overview
+📖 About The Project
 
-Natours is a production-level backend application that allows users to:
+Natours is a production-ready backend application that allows users to explore and book travel tours.
 
-Browse tours
+It demonstrates real-world backend architecture including:
 
-Filter & sort tours
+🔐 Secure Authentication & Authorization
 
-View tour details
+🧱 MVC Architecture
 
-Sign up & log in
+📦 RESTful API Design
 
-Book tours
+🛡 Advanced Security Implementation
 
-Manage user profiles
+⚡ Production-level Error Handling
 
-Admin manage tours & users
+✨ Core Features
+🔐 Authentication & Authorization
 
-This project follows MVC Architecture and industry best practices.
-
-🛠 Tech Stack
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-JWT Authentication
-
-Stripe Payment Integration
-
-Nodemailer
-
-Security packages (Helmet, Rate Limit, xss-clean, etc.)
-
-🧠 Features Implemented
-✅ Authentication & Authorization
-
-User Signup
-
-Login / Logout
+User Signup & Login
 
 JWT-based authentication
 
-Password encryption using bcrypt
+Password encryption (bcrypt)
 
-Role-based access control (Admin, User)
+Role-based access control (Admin / User)
 
-✅ Tour Management
+🗺 Tour Management
 
-CRUD operations
+Full CRUD operations
 
-Advanced filtering
-
-Sorting
+Advanced filtering & sorting
 
 Pagination
 
-Aliasing routes
+Route aliasing
 
-Aggregation pipelines
+MongoDB aggregation pipelines
 
-✅ Security
+🛡 Security Implementation
 
 Data sanitization
 
@@ -80,74 +52,59 @@ NoSQL injection protection
 
 XSS protection
 
-HTTP security headers
+HTTP security headers (Helmet)
 
 Rate limiting
 
-✅ Error Handling
+⚠ Error Handling
 
-Global error handling middleware
+Global error middleware
 
 Operational vs Programming errors
 
-Custom error class
+Custom AppError class
 
-📂 Project Structure (MVC)
+🛠 Tech Stack
+Backend	Database	Security	Tools
+Node.js	MongoDB	Helmet	Nodemailer
+Express.js	Mongoose	xss-clean	Stripe
+JWT		Rate Limiter	Postman
+📂 Project Structure
 natours/
 │
 ├── controllers/
-│   ├── tourController.js
-│   ├── userController.js
-│   └── authController.js
-│
 ├── models/
-│   ├── tourModel.js
-│   └── userModel.js
-│
 ├── routes/
-│   ├── tourRoutes.js
-│   └── userRoutes.js
-│
 ├── utils/
-│   ├── appError.js
-│   └── catchAsync.js
-│
 ├── config.env
 ├── app.js
 └── server.js
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/your-username/natours.git
-2️⃣ Install dependencies
+⚙ Installation & Setup
+1️⃣ Clone Repository
+git clone https://github.com/Aman17123/natours.git
+2️⃣ Install Dependencies
 npm install
-3️⃣ Create a config.env file
+3️⃣ Configure Environment Variables
+
+Create a config.env file:
+
 PORT=3000
 DATABASE=your_mongodb_connection_string
 JWT_SECRET=your_super_secret_key
 JWT_EXPIRES_IN=90d
-4️⃣ Start the development server
+4️⃣ Run Development Server
 npm run dev
-🔐 API Endpoints Example
-🗺 Tours
-
-GET /api/v1/tours
-
-GET /api/v1/tours/:id
-
-POST /api/v1/tours
-
-PATCH /api/v1/tours/:id
-
+🔐 API Endpoints
+Tours
+GET    /api/v1/tours
+GET    /api/v1/tours/:id
+POST   /api/v1/tours
+PATCH  /api/v1/tours/:id
 DELETE /api/v1/tours/:id
-
-👤 Users
-
-POST /api/v1/users/signup
-
-POST /api/v1/users/login
-
-GET /api/v1/users/me
-
+Users
+POST   /api/v1/users/signup
+POST   /api/v1/users/login
+GET    /api/v1/users/me
 🧪 Testing
 
 You can test APIs using:
@@ -158,17 +115,12 @@ Thunder Client
 
 Insomnia
 
-🚀 Deployment
-
-You can deploy using:
+🚀 Deployment Options
 
 AWS
-
 Render
-
 Railway
-
-Heroku (if available)
+Heroku
 
 📚 What I Learned
 
@@ -178,19 +130,21 @@ Middleware chaining
 
 MongoDB aggregation framework
 
-Authentication flow with JWT
+JWT authentication flow
 
-Production-level error handling
+Production-ready error handling
 
 API security best practices
 
-Environment configuration
-
-Deployment strategies
+Environment configuration & deployment
 
 👨‍💻 Author
 
 Aman
 Backend Developer | MERN Stack Learner
 
-GitHub: https://github.com/Aman17123
+🔗 GitHub: https://github.com/Aman17123
+
+⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
