@@ -1,6 +1,6 @@
 🌍 Natours
 Advanced Node.js, Express & MongoDB Project
-<p align="center"> <b>Production-level Backend Travel Booking API</b><br> Built with MVC Architecture, RESTful APIs, Authentication & Security Best Practices </p>
+<p align="center"> <b>Production-Level Backend Travel Booking API</b><br> Built with MVC Architecture, RESTful APIs, Authentication & Security Best Practices </p>
 🚀 Live Demo
 
 🔗 Live URL: https://your-live-link.com
@@ -19,7 +19,7 @@ It demonstrates real-world backend architecture including:
 
 🛡 Advanced Security Implementation
 
-⚡ Production-level Error Handling
+⚡ Production-Level Error Handling
 
 ✨ Core Features
 🔐 Authentication & Authorization
@@ -28,7 +28,7 @@ User Signup & Login
 
 JWT-based authentication
 
-Password encryption (bcrypt)
+Password encryption using bcrypt
 
 Role-based access control (Admin / User)
 
@@ -52,7 +52,7 @@ NoSQL injection protection
 
 XSS protection
 
-HTTP security headers (Helmet)
+HTTP security headers using Helmet
 
 Rate limiting
 
@@ -81,7 +81,7 @@ natours/
 └── server.js
 ⚙ Installation & Setup
 1️⃣ Clone Repository
-git clone https://github.com/Aman17123/natours.git
+git clone https://github.com/Aman17123/ExpressJS.git
 2️⃣ Install Dependencies
 npm install
 3️⃣ Configure Environment Variables
@@ -118,16 +118,11 @@ Insomnia
 🚀 Deployment Options
 
 AWS
-<<<<<<< HEAD
-Render
-Railway
-=======
 
 Render
 
 Railway
 
->>>>>>> 9c683fe (readme update)
 Heroku
 
 📚 What I Learned
@@ -155,8 +150,4 @@ Backend Developer | MERN Stack Learner
 
 ⭐ Support
 
-<<<<<<< HEAD
 If you like this project, give it a ⭐ on GitHub!
-=======
-If you like this project, give it a ⭐ on GitHub!
->>>>>>> 9c683fe (readme update)
